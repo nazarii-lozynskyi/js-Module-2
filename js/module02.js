@@ -441,22 +441,22 @@
 //****************** */
 
 //***************** 32 */
-function includes(array, value) {
-  // Change code below this line
-  for (let i = 0; i < array.length; i += 1) {
-    if (array[i] === value) {
-      console.log(true);
-      return true;
-    }
-  }
-  console.log(false);
-  return false;
-  // Change code above this line
-}
+// function includes(array, value) {
+//   // Change code below this line
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (array[i] === value) {
+//       console.log(true);
+//       return true;
+//     }
+//   }
+//   console.log(false);
+//   return false;
+//   // Change code above this line
+// }
 
-includes([1, 2, 3, 4, 5], 3);
-includes([1, 2, 3, 4, 5], 17);
-includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Jupiter');
-includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Uranus');
-includes(['apple', 'plum', 'pear', 'orange'], 'kiwi');
-includes();
+// includes([1, 2, 3, 4, 5], 3);
+// includes([1, 2, 3, 4, 5], 17);
+// includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Jupiter');
+// includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Uranus');
+// includes(['apple', 'plum', 'pear', 'orange'], 'kiwi');
+// includes();
